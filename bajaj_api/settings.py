@@ -25,7 +25,6 @@ SECRET_KEY = 'django-insecure--qk6w5ot9qu*yorj=1t)(5&_&@nq!u9j6y9gyhh8!v!w1zictd
 REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': (
         'rest_framework.renderers.JSONRenderer',
-        'rest_framework.renderers.BrowsableAPIRenderer',
     )
 }
 
